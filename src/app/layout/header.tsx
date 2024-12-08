@@ -36,7 +36,12 @@ const Header = () => {
 
           {/* Right: Cart and Profile icons for large screens */}
           <div className="hidden lg:flex gap-3 text-xl lg:flex-1 justify-end">
-            <MdOutlineShoppingCart />
+          <Link href="/cart">
+ 
+    <MdOutlineShoppingCart />
+
+</Link>
+
             <CgProfile />
           </div>
 

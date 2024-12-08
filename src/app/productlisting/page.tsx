@@ -5,6 +5,7 @@ import { TbTruckDelivery } from 'react-icons/tb';
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import { LuSprout } from "react-icons/lu";
 import { MdOutlinePriceChange } from "react-icons/md";
+import { Link } from 'lucide-react';
 
 const ProductListing = () => {
   const features = [
@@ -20,7 +21,7 @@ const ProductListing = () => {
     },
     {
       title: 'Unbeatable prices',
-      description: 'For our material and quality, you won’t find better prices anywhere.',
+      description: 'For our material and quality, you wont find better prices anywhere.',
       icon: MdOutlinePriceChange,
     },
     {
@@ -91,9 +92,10 @@ const ProductListing = () => {
                         <span>+</span> 1 <span>-</span>
                       </button>
                     </div>
+                    <a href="/cart">
                     <button className="w-full md:w-[146px] h-[56px] bg-[#2A254B] text-white mt-4 md:mt-0">
                       Add to cart
-                    </button>
+                    </button></a>
                   </div>
                 </div>
               </div>
@@ -171,10 +173,12 @@ const ProductListing = () => {
 
               {/* View Collection Button */}
               <div className="my-10 flex justify-center items-center">
-                <button className="bg-[#F9F9F9] py-4 px-6 rounded-[5px] text-[#2A254B] hover:bg-[#2a254b] hover:text-white transition-colors duration-300">
-                  View collection
-                </button>
-              </div>
+  
+    <button className="bg-[#F9F9F9] py-4 px-6 rounded-[5px] text-[#2A254B] hover:bg-[#2a254b] hover:text-white transition-colors duration-300">
+      View collection
+    </button>
+  
+</div>
             </div>
           </section>
 

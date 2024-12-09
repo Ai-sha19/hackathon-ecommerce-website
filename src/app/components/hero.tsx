@@ -11,9 +11,11 @@ function Hero() {
             The furniture brand for the future, with timeless designs
           </h1>
          <div className="flex  sm:flex-col flex-col-reverse lg:gap-52 sm:gap-32 gap-10">
+
+           {/* This button navigates to the all-products page */}
          <Link
             className="py-4 text-center  bg-[#f9f9f9] bg-opacity-[15%] sm:w-[170px] w-full hover:bg-opacity-30 transition"
-            href="/"
+            href="/all-products-listing"
           >
             View Collection
           </Link>

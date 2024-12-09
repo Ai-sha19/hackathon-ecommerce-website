@@ -27,9 +27,9 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 # Custom Navigation Features
 
-## new-ceramics.tsx
+## hero.tsx & new-ceramics.tsx
 
-The View collection button in the new-ceramics.tsx component navigates to the all-products-listing page when clicked.
+The View collection button in the hero.tsx & new-ceramics.tsx component navigates to the all-products-listing page when clicked.
 
 ## products.tsx
 

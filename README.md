@@ -1,10 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Project Overview
+# Project Overview
 
 This project is based on a pixel-perfect Figma template. The design has been meticulously implemented to ensure responsiveness and visual accuracy. It is an e-commerce website built using modern web technologies, focusing on usability and performance.
 
-# Key Features
+## Key Features
 
 Components and pages are developed based on the Figma template.
 
@@ -27,15 +27,15 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 # Custom Navigation Features
 
-# new-ceramics.tsx
+## new-ceramics.tsx
 
 The View collection button in the new-ceramics.tsx component navigates to the all-products-listing page when clicked.
 
-# products.tsx
+## products.tsx
 
 The View products button in the products.tsx component navigates to the productlisting page when clicked.
 
-# productlisting.tsx
+## productlisting.tsx
 
 The Add to cart button in the productlisting.tsx component navigates to the shopping-basket page when clicked.
 

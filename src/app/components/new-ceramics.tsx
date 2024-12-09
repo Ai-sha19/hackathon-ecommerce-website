@@ -76,8 +76,8 @@ const NewCeramics = () => {
           {/* View Collection Button */}
           <div className="my-10 flex justify-center items-center">
             {/* This button navigates to the all-products-listing page */}
-            <a href="/all-products">
-            <button className="bg-[#F9F9F9] px-28 py-4 sm::py-4 sm::px-6 md:py-4 md:px-6 lg:py-4 lg:px-6 2xl:py-4 2xl:px-6 rounded-[5px] text-[#2A254B] hover:bg-[#2a254b] hover:text-white transition-colors duration-300">
+            <a href="/all-products-listing">
+            <button className="bg-[#F9F9F9] px-4 py-4 rounded-[5px] text-[#2A254B] hover:bg-[#2a254b] hover:text-white transition-colors duration-300">
                 View collection
               </button>
             </a>

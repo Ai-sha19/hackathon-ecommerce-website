@@ -92,11 +92,13 @@ const ProductListing = () => {
                         <span>+</span> 1 <span>-</span>
                       </button>
                     </div>
-                         {/* This button navigates to the shopping-basket page */}
+                    {/* This button navigates to the shopping-basket page */}
                     <a href="/shopping-basket">
-                    <button className="w-full md:w-[146px] h-[56px] bg-[#2A254B] text-white mt-4 md:mt-0">
-                      Add to cart
-                    </button></a>
+                      <button className="w-full md:w-[146px] min-w-[120px] h-[56px] bg-[#2A254B] text-white mt-4 md:mt-0 text-center">
+                        Add to cart
+                      </button>
+                    </a>
+
                   </div>
                 </div>
               </div>
@@ -174,18 +176,18 @@ const ProductListing = () => {
 
               {/* View Collection Button */}
               <div className="my-10 flex justify-center items-center">
-  
-    <button className="bg-[#F9F9F9] py-4 px-6 rounded-[5px] text-[#2A254B] hover:bg-[#2a254b] hover:text-white transition-colors duration-300">
-      View collection
-    </button>
-  
-</div>
+
+                <button className="bg-[#F9F9F9] py-4 px-6 rounded-[5px] text-[#2A254B] hover:bg-[#2a254b] hover:text-white transition-colors duration-300">
+                  View collection
+                </button>
+
+              </div>
             </div>
           </section>
 
           <h3 className="pb-[50px] font-normal text-[#2a254b] text-[24px] text-left md:text-center lg:text-center">
-                What makes our brand different
-            </h3>
+            What makes our brand different
+          </h3>
           <div className="flex flex-wrap  justify-between items-center w-full">
             {/* Feature 1 */}
 
@@ -242,28 +244,28 @@ const ProductListing = () => {
             </div>
           </div>
           <div className='py-12 bg-[#F9F9F9] text-[#2A254B] mt-12'>
-          <div className='w-full max-w-[640px] md:max-w-[1340px] h-[350px] bg-white mx-auto flex justify-center items-center flex-col px-4'>
-            <h1 className='text-2xl md:text-4xl text-center'>
-              Join the club and get the benefits
-            </h1>
-            <h2 className='text-center py-4 text-sm md:text-base'>
-              Sign up for our newsletter and receive exclusive offers on new
-              <br /> ranges, sales, pop-up stores, and more.
-            </h2>
-            <div className='mt-4 w-full'>
-              <form action="" className='flex flex-col md:flex-row items-center justify-center'>
-                <input
-                  type="text"
-                  placeholder="your@email.com"
-                  className="p-4 bg-[#F9F9F9] w-full md:w-[354px] h-[56px] outline-none mb-4 md:mb-0"
-                />
-                <button className='p-2 bg-[#2A254B] text-white w-full md:w-[118px] h-[56px]'>
-                  Signup
-                </button>
-              </form>
+            <div className='w-full max-w-[640px] md:max-w-[1340px] h-[350px] bg-white mx-auto flex justify-center items-center flex-col px-4'>
+              <h1 className='text-2xl md:text-4xl text-center'>
+                Join the club and get the benefits
+              </h1>
+              <h2 className='text-center py-4 text-sm md:text-base'>
+                Sign up for our newsletter and receive exclusive offers on new
+                <br /> ranges, sales, pop-up stores, and more.
+              </h2>
+              <div className='mt-4 w-full'>
+                <form action="" className='flex flex-col md:flex-row items-center justify-center'>
+                  <input
+                    type="text"
+                    placeholder="your@email.com"
+                    className="p-4 bg-[#F9F9F9] w-full md:w-[354px] h-[56px] outline-none mb-4 md:mb-0"
+                  />
+                  <button className='p-2 bg-[#2A254B] text-white w-full md:w-[118px] h-[56px]'>
+                    Signup
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
-        </div>
 
 
 

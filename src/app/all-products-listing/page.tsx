@@ -257,7 +257,7 @@ const ProductListing2 = () => {
           {/* View Collection Button */}
           <div className="my-10 flex justify-center items-center">
             {/* This button navigates to the all-products page */}
-            <a href="/all-products">
+            <a href="/all-products-listing">
               <button className="bg-[#F9F9F9] px-4 py-4 rounded-[5px] text-[#2A254B] hover:bg-[#2a254b] hover:text-white transition-colors duration-300">
                 View collection
               </button>

@@ -92,7 +92,8 @@ const ProductListing = () => {
                         <span>+</span> 1 <span>-</span>
                       </button>
                     </div>
-                    <a href="/cart">
+                         {/* This button navigates to the shopping-basket page */}
+                    <a href="/shopping-basket">
                     <button className="w-full md:w-[146px] h-[56px] bg-[#2A254B] text-white mt-4 md:mt-0">
                       Add to cart
                     </button></a>

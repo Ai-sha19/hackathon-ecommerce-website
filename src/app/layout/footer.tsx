@@ -14,7 +14,7 @@ function Footer() {
       <div className="py-10 flex flex-wrap justify-between border-b border-[#4e4d93] gap-8 md:gap-0">
         {/* Menu */}
         <ul className="flex flex-col gap-3">
-          <li className="font-bold">Menu</li>
+          <li className="font-normal text-lg">Menu</li>
           <li>
             <Link className="text-sm" href="">
               New Arrivals
@@ -44,67 +44,67 @@ function Footer() {
 
         {/* Categories */}
         <ul className="flex flex-col gap-3">
-          <li className="font-bold">Categories</li>
+          <li className="font-normal text-lg">Categories</li>
           <li>
             <Link className="text-sm" href="">
-              New Arrivals
+              Crockery
             </Link>
           </li>
           <li>
             <Link className="text-sm" href="">
-              Best sellers
+             Furniture
             </Link>
           </li>
           <li>
             <Link className="text-sm" href="">
-              Recently viewed
+              Homewear
             </Link>
           </li>
           <li>
             <Link className="text-sm" href="">
-              Popular this week
+              Plant pots
             </Link>
           </li>
           <li>
             <Link className="text-sm" href="">
-              All products
+              Chairs
             </Link>
           </li>
         </ul>
 
         {/* Our Company */}
         <ul className="flex flex-col gap-3">
-          <li className="font-bold">Our Company</li>
+          <li className="font-normal text-lg">Our Company</li>
           <li>
             <Link className="text-sm" href="">
-              New Arrivals
+             About us
             </Link>
           </li>
           <li>
             <Link className="text-sm" href="">
-              Best sellers
+              Vacancies
             </Link>
           </li>
           <li>
             <Link className="text-sm" href="">
-              Recently viewed
+              Contact us
             </Link>
           </li>
           <li>
             <Link className="text-sm" href="">
-              Popular this week
+              Privacy
             </Link>
           </li>
           <li>
             <Link className="text-sm" href="">
-              All products
+             Returns policy
             </Link>
           </li>
         </ul>
 
         {/* Mailing List */}
         <div className="flex flex-col gap-4">
-          <p className="font-bold">Join our mailing list</p>
+          <p className="font-normal text-lg">Join our mailing list</p>
           <div className="flex">
             <input
               className="flex-1 h-[56px] px-4 outline-none text-white bg-[#ffffff] bg-opacity-[15%] placeholder-gray-400"

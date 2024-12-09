@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function Cart() {
+export default function ShoppingBasket() {
   return (
     <div className="min-h-screen bg-white px-6 py-12 md:px-24">
       <h1 className="text-3xl font-semibold text-gray-800 mb-8">Your shopping cart</h1>
